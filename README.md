@@ -1,4 +1,4 @@
-# Intro to web scraping with Python
+# Intro to Web Scraping with Python
 ### UBC Library Research Commons
 
 :heavy_exclamation_mark: This workshop is in development and not yet complete. :heavy_exclamation_mark:    
