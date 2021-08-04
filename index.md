@@ -25,10 +25,12 @@ At the end of this workshop, you will:
 | 1:30 | Wrap-up and Discussion |
 
 ## Resources
-(Not required before attending)
+(Not required before attending, but recommended)
+* Python Cheat Sheet:
+  * http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/
 * Pandas Cheat Sheet:
- * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+  * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 * HTML Basics:
- * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+  * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 * Reading and Respecting robots.txt:
- * https://www.promptcloud.com/blog/how-to-read-and-respect-robots-file/
+  * https://www.promptcloud.com/blog/how-to-read-and-respect-robots-file/
