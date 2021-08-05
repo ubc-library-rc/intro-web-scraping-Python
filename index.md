@@ -18,7 +18,7 @@ At the end of this workshop, you will:
 ## Schedule
 
 | 0:00 | Introduction |
-| 0:15 | Ethics of Web Scraping |
+| 0:10 | Ethics of Web Scraping |
 | 0:25 | Background |
 | 0:45 | Scraping - Pandas |   
 | 1:00 | Scraping - BS4 |
