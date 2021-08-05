@@ -6,7 +6,7 @@ nav_order: 1
 
 <!-- ## Note: this workshop is in development and not yet complete. -->
 
-Web scraping is a powerful tool which unlocks doors to new data. This workshop will introduce attendees to some tools and techniques for getting data from web pages using Python, with an emphasis on tools that do not require knowledge of html. We will go through several hands-on examples together, where attendees will gain experience identifying sites with scrapable data, retrieving the data, cleaning it, understanding it, and saving it. 
+Web scraping is a powerful tool which unlocks doors to new data. This workshop will introduce attendees to some tools and techniques for getting data from web pages using Python, with an emphasis on tools that do not require knowledge of html. We will go through several hands-on examples together, where attendees will gain experience identifying sites with scrapable data, retrieving the data, cleaning it, and saving it for future use. 
 
 ## Learning objectives
 
@@ -25,7 +25,7 @@ At the end of this workshop, you will:
 | 1:30 | Wrap-up and Discussion |
 
 ## Resources
-(You are not required to read before attending, but skimming them is recommended)
+(You are not required to read before attending, but skimming is recommended - especially the first two links)
 * Python Cheat Sheet:
   * http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/
 * Pandas Cheat Sheet:
