@@ -25,7 +25,7 @@ At the end of this workshop, you will:
 | 1:30 | Wrap-up and Discussion |
 
 ## Resources
-(Not required before attending, but recommended)
+(You are not required to read before attending, but skimming them is recommended)
 * Python Cheat Sheet:
   * http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/
 * Pandas Cheat Sheet:
