@@ -9,4 +9,4 @@ nav_order: 4
 
 
 ## UBC Syzygy:
-https://ubc.syzygy.ca/
+[https://ubc.syzygy.ca/](https://ubc.syzygy.ca/)
