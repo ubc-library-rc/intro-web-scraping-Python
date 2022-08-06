@@ -34,7 +34,7 @@ None Type:      NoneType
 ~~~
 
 
-# Understanding website structure
+# Understanding Website Structure
 
 Website content is usually represented using HTML, or **H**yper**t**ext **M**arkup **L**anguage. Web servers make HTML content available to browsers using a data transfer protocol called HTTP (**H**yper**t**ext **T**ransfer **P**rotocol). Two of the most common HTTP request methods are *get* (to request data from a server) and *post* (to send data to a server).
 
