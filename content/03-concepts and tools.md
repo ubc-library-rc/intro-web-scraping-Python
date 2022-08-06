@@ -2,7 +2,7 @@
 layout: default
 title: Concepts and tools
 parent: Workshop Content
-nav_order: 3
+nav_order: 1
 ---
 
 # Concepts and Tools
