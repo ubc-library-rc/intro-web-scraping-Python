@@ -1,6 +1,6 @@
 ---
  layout: default
- title: Web scraping?
+ title: Web scraping
  parent: Outline
  nav_order: 1
 ---
