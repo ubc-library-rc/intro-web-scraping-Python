@@ -52,7 +52,7 @@ print(fake_jobs_page.text)
 This code issues an HTTP GET request to the given URL. It retrieves the HTML data that the server sends back and stores that data in a Python object.
 By printing the .text attribute of page, gives the same HTML that was inspected earlier with the browser’s developer tools. This successfully grabs the static site content from the Internet! You now have access to the site’s HTML from within your Python script.
 
-## Step 3 – Parse HTML code with Beautiful Soup
+## Step 3: Parse HTML code with Beautiful Soup
 
 The HTML code is messy containing various elements, attributes, JavaScript etc. With the help of python, it’s possible to parse this lengthy code and clean it to retrieve the desired data.
 Beautiful Soup is a Python library for parsing structured data. It allows the user to interact with HTML just as someone would interact with a web page via developer tools. The library exposes a couple of intuitive functions you can use to explore the HTML you received. To get started, install Beautiful Soup:
@@ -60,7 +60,7 @@ Beautiful Soup is a Python library for parsing structured data. It allows the us
 Input
 {: .label .label-green }
 ~~~python
-install beautifulsoup4
+pip install beautifulsoup4
 ~~~
 
 Then, the library is imported in the script and a Beautiful Soup object is generated:
@@ -123,10 +123,8 @@ Input
 for job in jobs:
     title = job.find("h2", class_="title")
     company = job.find("h3", class_="company")
-    location = job.find("p", class_="location")
     print(title)
     print(company)
-    print(location)
     print()
 ~~~
 
