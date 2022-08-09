@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 ## Resources
-(You are not required to read before attending, but skimming is recommended - especially the first two links)
+(Here are some useful resources you may wish to look at - the first two links are especially helpful.)
 * Python Cheat Sheet:
   * http://www.sixthresearcher.com/python-3-reference-cheat-sheet-for-beginners/
 * Pandas Cheat Sheet:
