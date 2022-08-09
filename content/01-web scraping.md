@@ -62,3 +62,14 @@ Just because something is online does not mean it is free to scrape. Sites may w
 - *Am I overloading the website's servers?* Scraping practice should respect the website's access rules, often encoded in *robots.txt* files.
 
 There are grey areas as scraping involves interacting with a website in a way that the site owner might not have intended. When in doubt get in touch with a librarian or contact UBC's [Copyright Office](https://copyright.ubc.ca/support/contact-us/).
+
+
+## Understanding website structure
+
+<em><a href="../slides/website-structure.html" target="_blank">View slides</a> for this section</em>
+
+Website content is usually represented using HTML, or **H**yper**t**ext **M**arkup **L**anguage. Web servers make HTML content available to browsers using a data transfer protocol called HTTP (**H**yper**t**ext **T**ransfer **P**rotocol). Two of the most common HTTP request methods are *get* (to request data from a server) and *post* (to send data to a server).
+
+Web scraping tools use a website's HTML structure to navigate the page and identify the content to scrape. Effective use of web scraping tools requires a basic understanding of how web pages are structured. Sites whose underlying structure is well organized and descriptive are usually easier to scrape.
+
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">Anatomy of an HTML element.</a>
