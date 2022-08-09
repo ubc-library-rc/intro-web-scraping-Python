@@ -4,6 +4,7 @@
  parent: Outline
  nav_order: 4
 ---
+
 # Activities
 
 For this tutorial a web scraper for Fake Job site (https://realpython.github.io/fake-jobs/) will be created.
@@ -25,19 +26,25 @@ Inspect the site with developer tools (Ctrl+shift+I) to observe the site’s doc
 First, you’ll want to get the site’s HTML code into your Python script so that you can interact with it. To fulfill this task, you’ll use Python’s requests library.
 Type the following command in your terminal to install the external requests library:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 pip install requests
 ~~~
 
 Afterwards, import the requests library:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 import requests
 ~~~
 
 Then open up a new file in your favorite text/editor or google colab. All you need to retrieve the HTML are a few lines of code:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 fake_jobs_page = requests.get("https://realpython.github.io/fake-jobs/")
 print(fake_jobs_page.text)
 ~~~
@@ -50,13 +57,17 @@ By printing the .text attribute of page, gives the same HTML that was inspected 
 The HTML code is messy containing various elements, attributes, JavaScript etc. With the help of python, it’s possible to parse this lengthy code and clean it to retrieve the desired data.
 Beautiful Soup is a Python library for parsing structured data. It allows the user to interact with HTML just as someone would interact with a web page via developer tools. The library exposes a couple of intuitive functions you can use to explore the HTML you received. To get started, install Beautiful Soup:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 install beautifulsoup4
 ~~~
 
 Then, the library is imported in the script and a Beautiful Soup object is generated:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 from bs4 import BeautifulSoup
 
 fake_jobs_page = requests.get("https://realpython.github.io/fake-jobs/")
@@ -69,13 +80,17 @@ By adding the two lines of code, a Beautiful Soup object is generated that takes
 
 In an HTML web page, every element has an unique id attribute assigned to them. You can begin to parse the page by selecting a certain element by its ID. Beautiful Soup helps you to find that HTML element by its ID. We are interested in looking for is a <div> with an id attribute that has the value "ResultsContainer".This is implemented in Beautifulsoup using the following code:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 results = soup.find(id="ResultsContainer")
 ~~~
 
 By calling .prettify() on the results variable of any Beautiful Soup object, you can easily see all the HTML contained within the <div>:
 
-~~~
+Input
+{: .label .label-green }
+~~~python
 print(results.prettify())
 ~~~
 
@@ -85,21 +100,27 @@ When choosing element’s by ID we precisely get to choose one element among the
 
 The job postings are wrapped in a <div> element with the class card-content. Now you can work with your new object called results and select only the job postings in it. These are, after all, the parts of the HTML that you’re interested in! You can do this in one line of code:
 
-~~~
-job = results.find_all("div", class_="card-content")
+Input
+{: .label .label-green }
+~~~python
+jobs = results.find_all("div", class_="card-content")
 ~~~
 
 The .find_all() on a Beautiful Soup object returns an iterable containing all the HTML for all the job listings displayed on that page.Take a look at all of them:
 
-~~~
-for job in job:
+Input
+{: .label .label-green }
+~~~python
+for job in jobs:
   print(job, end="\n"*2)
 ~~~
 
 Although it’s neat there’s still a lot of HTML! You saw earlier that your page has descriptive class names on some elements. You can pick out those child elements from each job posting with .find():
 
-~~~
-for job in job:
+Input
+{: .label .label-green }
+~~~python
+for job in jobs:
     title = job.find("h2", class_="title")
     company = job.find("h3", class_="company")
     location = job.find("p", class_="location")
