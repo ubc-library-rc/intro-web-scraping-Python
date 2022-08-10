@@ -2,7 +2,7 @@
 layout: default
 title: Concepts and tools
 parent: Outline
-nav_order: 1
+nav_order: 2
 ---
 
 # Concepts and Tools
