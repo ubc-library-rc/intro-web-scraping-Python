@@ -52,7 +52,7 @@ Most browsers have built-in "inspect" tools that allow you to explore the HTML s
 
 This screenshot below shows the *Inspect* tool applied to a web page accessed with Chrome: <a href="http://econpy.pythonanywhere.com/ex/001.html" target="_blank">http://econpy.pythonanywhere.com/ex/001.html</a>. The page is a list of buyer names and item prices.
 
-![Inspect tool example](content/inspect_tool.png)
+![Inspect tool example](images/inspect_tool.png)
 
 In a simple site like this it is easy to see the correlation between displayed content and HTML elements. You can expand the HTML elements in the inspection window to reveal other content and hover over elements to highlight the corresponding section in the web page.
 
