@@ -28,7 +28,7 @@ but it is usually faster, more efficient and less error-prone to **automate** th
 Web scraping allows you to acquire non-tabular or poorly structured data from websites and convert it
 into a usable structured format such as a .csv file or spreadsheet. In many cases scraping can save time by automating repetitive copy/paste retrieval processes.
 
-![The promise of automation](media/the_general_problem.png)
+![The promise of automation](images/the_general_problem.png)
 
 Source: [https://xkcd.com/974/](https://xkcd.com/974/)
 
