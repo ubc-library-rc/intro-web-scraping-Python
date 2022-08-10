@@ -9,13 +9,13 @@
 
 For this tutorial a web scraper for Fake Job site (https://realpython.github.io/fake-jobs/) will be created.
 
-![Finder window](fakejobsite.jpg)
+![Finder window](images/fakejobsite.png)
 
 ## Step 1: Inspect Data Source
 
 The first step is to explore the website and know what contents to scrape in it. The job postings are structured in a card format, and each of them has two buttons. A new page with detailed job description appears when the Apply button is clicked. Notice, the URL in the browser’s address bar changes when you interact with the website.
 
-![Finder window](sitedetails.jpg)
+![Finder window](images/sitedetails.png)
 
 Inspect the site with developer tools (Ctrl+shift+I) to observe the site’s document object model (DOM) to understand the source. To dig into your page’s DOM, select the Elements tab in developer tools. You’ll see a structure with clickable HTML elements. You can expand, collapse, and even edit elements right in your browser. You can also hover over the HTML text on your right and see the corresponding elements light up on the left.
 
